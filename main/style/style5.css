@@ -1,0 +1,149 @@
+.nk-menu-sub .nk-menu-link {
+    font-weight: 700;
+    font-size: 15px;
+}
+img.svg-icon {
+    width: 24px;
+    width: 24px;
+}
+
+.nk-menu-text {
+    white-space: unset;
+}
+
+.info-box {
+    box-shadow: 1px 1px 25px rgb(0 0 0 / 15%);
+}
+.dark-mode .info-box {
+    background-color: #141f2e;
+}
+.info-box {
+    border-radius: 0.25rem;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 1rem;
+    min-height: 80px;
+    padding: 0.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.info-box .info-box-icon {
+    border-radius: 0.25rem;
+    align-items: center;
+    display: flex;
+    font-size: 1.875rem;
+    justify-content: center;
+    text-align: center;
+    width: 70px;
+}
+
+.info-box .info-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.8;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.info-box .info-box-text,
+.info-box .progress-description {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.info-box .info-box-number {
+    display: block;
+    margin-top: 0.25rem;
+    font-weight: 700;
+}
+
+.statistical {
+    font-size: 10px;
+}
+
+.number {
+    font-weight: 500;
+}
+.stats {
+    background: #f2f5f8 !important;
+    color: #000 !important;
+}
+.dark-mode .stats {
+    background: #141f2e !important;
+    color: #f2f5f8 !important;
+}
+
+.checkbox:checked + img {
+    border: 3px solid #21da11;
+    position: relative;
+    top: -3px;
+    transform: scale(1.2);
+}
+
+.post-date {
+    font-size: 11px;
+}
+
+.post-text {
+    font-size: 12px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.cursor:hover {
+    color: blue;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.text-veri {
+    color: #2c7be5 !important;
+}
+
+.modalimage-cus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% !important;
+    max-height: 400 px !important;
+}
+
+.comment-section textarea {
+    min-height: 20px;
+}
+.home-notification {
+    max-height: 650px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.home-notification::-webkit-scrollbar-thumb {
+    background-color: #4c4c6a;
+    border-radius: 2px;
+}
+
+.home-notification::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #232e3b;
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .home-notification {
+        max-height: 480px;
+    }
+}
